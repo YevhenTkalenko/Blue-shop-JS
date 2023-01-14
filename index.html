@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="header"> <!--Header-->
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <div class="logo">
+                        <img src="img/LogoHere.png" alt="Logo">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <ul class="menu">
+                        <li class="menu-item">
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="menu-item arrow-block">
+                            <a href="#" class="first-arrow-link">Products</a>
+                            <ul class="dropdown-menu">
+                                <li class="drop-item">
+                                    <a href="#">Lorem ipsut dolor</a>
+                                </li>
+                                <li class="drop-item">
+                                    <a href="#">Sit amet</a>
+                                </li>
+                                <li class="drop-item">
+                                    <a href="#">Consectetur adisipicing</a>
+                                </li>
+                                <li class="drop-item">
+                                    <a href="#">Tempor incididuct</a>
+                                </li>
+                                <li class="drop-item">
+                                    <a href="#">Dolor magna aliqua</a>
+                                </li>
+                                <li class="drop-item">
+                                    <a href="#">Ut emim ad minim veniam</a>
+                                </li>
+                                <li class="drop-item">
+                                    <a href="#">Quis nostrud</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Payment</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Shipping</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <div class="form-and-shopper">
+                        <div class="forma-header">
+                            <form class="forma">
+                                <input type="text" class="search-inp" placeholder="search">
+                                <button class="search-btn">
+                                    <img src="img/Search icon.png" alt="Search">
+                                </button>
+                            </form>
+                        </div>
+                        <div class="shopping-mall">
+                            <div class="img-shopper">
+                                <div class="counter">
+                                    <span id="productsCount">0</span>
+                                </div>
+                                <img src="img/shopping mall.png" alt="mall">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="global-slider-section"> <!--Slider-->
+        <div class="slider-container">
+            <div class="row">
+                <div class="col-1">
+                    <button class="left-arrow-slide">
+                        <img src="img/211686_back_arrow_icon.svg" alt="left-arrow">
+                    </button>
+                </div>
+                <div class="col-10">
+                    <div class="main-slider">
+                        <span>Slide 3</span>
+                    </div>
+                </div>
+                <div class="col-1">
+                    <button class="right-arrow-slide">
+                        <img src="img/211688_forward_arrow_icon.svg" alt="right-arrow">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <main class="main"> <!--Main and aside-->
+        <div class="container">
+            <div class="row">
+                <aside class="col-3 aside">
+                    <div class="aside-form-container">
+                        <form class="aside-main-form">
+                            <div class="aside-form-inner">
+                                <div class="check-box-inner">
+                                    <span>DEVISE TYPE</span>
+                                    <div class="box-sub-inner">
+                                        <input type="checkbox" id="Laptop">
+                                        <label for="Laptop">Laptop</label>
+                                    </div>
+                                    <div class="box-sub-inner">
+                                        <input type="checkbox" id="Tablet">
+                                        <label for="Tablet">Tablet</label>
+                                    </div>
+                                </div>
+                                <div class="check-box-inner">
+                                    <span>COLOR</span>
+                                    <div class="box-sub-inner">
+                                        <input type="checkbox" id="Black">
+                                        <label for="Black">Black</label>
+                                    </div>
+                                    <div class="box-sub-inner">
+                                        <input type="checkbox" id="Red">
+                                        <label for="Red">Red</label>
+                                    </div>
+                                    <div class="box-sub-inner">
+                                        <input type="checkbox" id="Green">
+                                        <label for="Green">Green</label>
+                                    </div>
+                                    <div class="box-sub-inner">
+                                        <input type="checkbox" id="Blue">
+                                        <label for="Blue">Blue</label>
+                                    </div>
+                                    <div class="box-sub-inner">
+                                        <input type="checkbox" id="Orange">
+                                        <label for="Orange">Orange</label>
+                                    </div>
+                                </div>
+                                <div class="check-box-inner">
+                                    <span>RAM</span>
+                                    <div class="box-sub-inner">
+                                        <input type="checkbox" id="1GB">
+                                        <label for="1GB">1GB</label>
+                                    </div>
+                                    <div class="box-sub-inner">
+                                        <input type="checkbox" id="2GB">
+                                        <label for="2GB">2GB</label>
+                                    </div>
+                                    <div class="box-sub-inner">
+                                        <input type="checkbox" id="4GB">
+                                        <label for="4GB">4GB</label>
+                                    </div>
+                                    <div class="box-sub-inner">
+                                        <input type="checkbox" id="8GB">
+                                        <label for="8GB">8GB</label>
+                                    </div>
+                                </div>
+                                <div class="check-box-inner-last">
+                                    <div>Show more options ...</div>
+                                </div>
+                                <div class="aside-button-container">
+                                    <button class="aside-btn" type="submit">SUBMIT</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </aside>
+                <div class="col-9">
+                    <div class="main-products-container">
+                        <div class="status-str">
+                            <div class="status-str-inner">
+                                <a href="#">Home</a>
+                                <span>></span>
+                                <a href="#">Products</a>
+                                <span>></span>
+                                <a href="#">Laptops and Tablets</a>
+                            </div>
+                        </div>
+                        <div class="name-page-products">
+                            <span>Laptops and Tablets</span>
+                            <div class="selector">
+                                <select>
+                                    <option>Sort by name</option>
+                                    <option>Sort by value</option>
+                                    <option>Sort by popularity</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="section-products-block">
+                            <div class="inner-product-block">
+                                <div class="inner-header">
+                                    <img src="img/icon-monitor.png" alt="Monitor">
+                                    <div class="hover-for-focus">
+                                        <div class="focus-img">
+                                            <img src="img/icon-focus-blue.png" alt="Focus">
+                                        </div>
+                                        <div class="focus-img">
+                                            <img src="img/icon-focus.png" alt="Focus">
+                                        </div>
+                                    </div>
+                                    <div class="focus-for-like">
+                                        <div class="like-img">
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="inner-content">
+                                    <h2>#1 Devise Name</h2>
+                                    <div class="sub-inner-description">
+                                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                                    </div>
+                                    <div class="sub-inner-content">
+                                        <span>TYPE:</span>
+                                        <span>Lapton</span>
+                                    </div>
+                                    <div class="sub-inner-content">
+                                        <span>SCREEN SIZE:</span>
+                                        <span>7 inches</span>
+                                    </div>
+                                    <div class="sub-inner-content inner-last">
+                                        <span>RAM:</span>
+                                        <span>1 GB</span>
+                                    </div>
+                                    <div class="sub-inner-prise">
+                                        <span>$599<sup>25</sup></span>
+                                    </div>
+                                    <div class="inner-btn-block">
+                                        <div class="inner-btn">
+                                            <button type="button" class="btn-form new-form">MORE DETAILS</button>
+                                        </div>
+                                        <div class="inner-btn">
+                                            <button  type="submit" class="btn-form btn-last-form">ADD TO CASH
+                                                <img src="img/shop-mall-white.png" alt="white-mall">
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="inner-product-block">
+                                <div class="inner-header">
+                                    <img src="img/icon-monitor.png" alt="Monitor">
+                                    <div class="hover-for-focus">
+                                        <div class="focus-img">
+                                            <img src="img/icon-focus-blue.png" alt="Focus">
+                                        </div>
+                                        <div class="focus-img">
+                                            <img src="img/icon-focus.png" alt="Focus">
+                                        </div>
+                                    </div>
+                                    <div class="focus-for-like">
+                                        <div class="like-img">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="inner-content">
+                                    <h2>#1 Devise Name</h2>
+                                    <div class="sub-inner-description">
+                                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                                    </div>
+                                    <div class="sub-inner-content">
+                                        <span>TYPE:</span>
+                                        <span>Lapton</span>
+                                    </div>
+                                    <div class="sub-inner-content">
+                                        <span>SCREEN SIZE:</span>
+                                        <span>7 inches</span>
+                                    </div>
+                                    <div class="sub-inner-content inner-last">
+                                        <span>RAM:</span>
+                                        <span>1 GB</span>
+                                    </div>
+                                    <div class="sub-inner-prise">
+                                        <span>$599<sup>25</sup></span>
+                                    </div>
+                                    <div class="inner-btn-block">
+                                        <div class="inner-btn">
+                                            <button type="button" class="btn-form new-form">MORE DETAILS</button>
+                                        </div>
+                                        <div class="inner-btn">
+                                            <button type="submit" class="btn-form btn-last-form">ADD TO CASH
+                                                <img src="img/shop-mall-white.png" alt="white-mall">
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="inner-product-block">
+                                <div class="inner-header">
+                                    <img src="img/icon-monitor.png" alt="Monitor">
+                                    <div class="hover-for-focus">
+                                        <div class="focus-img">
+                                            <img src="img/icon-focus-blue.png" alt="Focus">
+                                        </div>
+                                        <div class="focus-img">
+                                            <img src="img/icon-focus.png" alt="Focus">
+                                        </div>
+                                    </div>
+                                    <div class="focus-for-like">
+                                        <div class="like-img">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="inner-content">
+                                    <h2>#1 Devise Name</h2>
+                                    <div class="sub-inner-description">
+                                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                                    </div>
+                                    <div class="sub-inner-content">
+                                        <span>TYPE:</span>
+                                        <span>Lapton</span>
+                                    </div>
+                                    <div class="sub-inner-content">
+                                        <span>SCREEN SIZE:</span>
+                                        <span>7 inches</span>
+                                    </div>
+                                    <div class="sub-inner-content inner-last">
+                                        <span>RAM:</span>
+                                        <span>1 GB</span>
+                                    </div>
+                                    <div class="sub-inner-prise">
+                                        <span>$599<sup>25</sup></span>
+                                    </div>
+                                    <div class="inner-btn-block">
+                                        <div class="inner-btn">
+                                            <button type="button" class="btn-form new-form">MORE DETAILS</button>
+                                            <button type="button" class="btn-form ">MORE DETAILS</button>
+                                        </div>
+                                        <div class="inner-btn">
+                                            <button type="submit" class="btn-form btn-last-form">ADD TO CASH
+                                                <img src="img/shop-mall-white.png" alt="white-mall">
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="inner-product-block">
+                                <div class="inner-header">
+                                    <img src="img/icon-monitor.png" alt="Monitor">
+                                    <div class="hover-for-focus">
+                                        <div class="focus-img">
+                                            <img src="img/icon-focus-blue.png" alt="Focus">
+                                        </div>
+                                        <div class="focus-img">
+                                            <img src="img/icon-focus.png" alt="Focus">
+                                        </div>
+                                    </div>
+                                    <div class="focus-for-like">
+                                        <div class="like-img">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="inner-content">
+                                    <h2>#1 Devise Name</h2>
+                                    <div class="sub-inner-description">
+                                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                                    </div>
+                                    <div class="sub-inner-content">
+                                        <span>TYPE:</span>
+                                        <span>Lapton</span>
+                                    </div>
+                                    <div class="sub-inner-content">
+                                        <span>SCREEN SIZE:</span>
+                                        <span>7 inches</span>
+                                    </div>
+                                    <div class="sub-inner-content inner-last">
+                                        <span>RAM:</span>
+                                        <span>1 GB</span>
+                                    </div>
+                                    <div class="sub-inner-prise">
+                                        <span>$599<sup>25</sup></span>
+                                    </div>
+                                    <div class="inner-btn-block">
+                                        <div class="inner-btn">
+                                            <button type="button" class="btn-form">MORE DETAILS</button>
+                                        </div>
+                                        <div class="inner-btn">
+                                            <button type="submit" class="btn-form btn-last-form">ADD TO CASH
+                                                <img src="img/shop-mall-white.png" alt="white-mall">
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="inner-product-block">
+                                <div class="inner-header">
+                                    <img src="img/icon-monitor.png" alt="Monitor">
+                                    <div class="hover-for-focus">
+                                        <div class="focus-img">
+                                            <img src="img/icon-focus-blue.png" alt="Focus">
+                                        </div>
+                                        <div class="focus-img">
+                                            <img src="img/icon-focus.png" alt="Focus">
+                                        </div>
+                                    </div>
+                                    <div class="focus-for-like">
+                                        <div class="like-img">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="inner-content">
+                                    <h2>#1 Devise Name</h2>
+                                    <div class="sub-inner-description">
+                                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                                    </div>
+                                    <div class="sub-inner-content">
+                                        <span>TYPE:</span>
+                                        <span>Lapton</span>
+                                    </div>
+                                    <div class="sub-inner-content">
+                                        <span>SCREEN SIZE:</span>
+                                        <span>7 inches</span>
+                                    </div>
+                                    <div class="sub-inner-content inner-last">
+                                        <span>RAM:</span>
+                                        <span>1 GB</span>
+                                    </div>
+                                    <div class="sub-inner-prise">
+                                        <span>$599<sup>25</sup></span>
+                                    </div>
+                                    <div class="inner-btn-block">
+                                        <div class="inner-btn">
+                                            <button type="button" class="btn-form">MORE DETAILS</button>
+                                        </div>
+                                        <div class="inner-btn">
+                                            <button type="submit" class="btn-form btn-last-form">ADD TO CASH
+                                                <img src="img/shop-mall-white.png" alt="white-mall">
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="inner-product-block">
+                                <div class="inner-header">
+                                    <img src="img/icon-monitor.png" alt="Monitor">
+                                    <div class="hover-for-focus">
+                                        <div class="focus-img">
+                                            <img src="img/icon-focus-blue.png" alt="Focus">
+                                        </div>
+                                        <div class="focus-img">
+                                            <img src="img/icon-focus.png" alt="Focus">
+                                        </div>
+                                    </div>
+                                    <div class="focus-for-like">
+                                        <div class="like-img">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="inner-content">
+                                    <h2>#1 Devise Name</h2>
+                                    <div class="sub-inner-description">
+                                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                                    </div>
+                                    <div class="sub-inner-content">
+                                        <span>TYPE:</span>
+                                        <span>Lapton</span>
+                                    </div>
+                                    <div class="sub-inner-content">
+                                        <span>SCREEN SIZE:</span>
+                                        <span>7 inches</span>
+                                    </div>
+                                    <div class="sub-inner-content inner-last">
+                                        <span>RAM:</span>
+                                        <span>1 GB</span>
+                                    </div>
+                                    <div class="sub-inner-prise">
+                                        <span>$599<sup>25</sup></span>
+                                    </div>
+                                    <div class="inner-btn-block">
+                                        <div class="inner-btn">
+                                            <button type="button" class="btn-form">MORE DETAILS</button>
+                                        </div>
+                                        <div class="inner-btn">
+                                            <button type="submit" class="btn-form btn-last-form">ADD TO CASH
+                                                <img src="img/shop-mall-white.png" alt="white-mall">
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="inner-product-block">
+                                <div class="inner-header">
+                                    <img src="img/icon-monitor.png" alt="Monitor">
+                                    <div class="hover-for-focus">
+                                        <div class="focus-img">
+                                            <img src="img/icon-focus-blue.png" alt="Focus">
+                                        </div>
+                                        <div class="focus-img">
+                                            <img src="img/icon-focus.png" alt="Focus">
+                                        </div>
+                                    </div>
+                                    <div class="focus-for-like">
+                                        <div class="like-img">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="inner-content">
+                                    <h2>#1 Devise Name</h2>
+                                    <div class="sub-inner-description">
+                                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                                    </div>
+                                    <div class="sub-inner-content">
+                                        <span>TYPE:</span>
+                                        <span>Lapton</span>
+                                    </div>
+                                    <div class="sub-inner-content">
+                                        <span>SCREEN SIZE:</span>
+                                        <span>7 inches</span>
+                                    </div>
+                                    <div class="sub-inner-content inner-last">
+                                        <span>RAM:</span>
+                                        <span>1 GB</span>
+                                    </div>
+                                    <div class="sub-inner-prise">
+                                        <span>$599<sup>25</sup></span>
+                                    </div>
+                                    <div class="inner-btn-block">
+                                        <div class="inner-btn">
+                                            <button type="button" class="btn-form">MORE DETAILS</button>
+                                        </div>
+                                        <div class="inner-btn">
+                                            <button type="submit" class="btn-form btn-last-form">ADD TO CASH
+                                                <img src="img/shop-mall-white.png" alt="white-mall">
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="inner-product-block">
+                                <div class="inner-header">
+                                    <img src="img/icon-monitor.png" alt="Monitor">
+                                    <div class="hover-for-focus">
+                                        <div class="focus-img">
+                                            <img src="img/icon-focus-blue.png" alt="Focus">
+                                        </div>
+                                        <div class="focus-img">
+                                            <img src="img/icon-focus.png" alt="Focus">
+                                        </div>
+                                    </div>
+                                    <div class="focus-for-like">
+                                        <div class="like-img">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="inner-content">
+                                    <h2>#1 Devise Name</h2>
+                                    <div class="sub-inner-description">
+                                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                                    </div>
+                                    <div class="sub-inner-content">
+                                        <span>TYPE:</span>
+                                        <span>Lapton</span>
+                                    </div>
+                                    <div class="sub-inner-content">
+                                        <span>SCREEN SIZE:</span>
+                                        <span>7 inches</span>
+                                    </div>
+                                    <div class="sub-inner-content inner-last">
+                                        <span>RAM:</span>
+                                        <span>1 GB</span>
+                                    </div>
+                                    <div class="sub-inner-prise">
+                                        <span>$599<sup>25</sup></span>
+                                    </div>
+                                    <div class="inner-btn-block">
+                                        <div class="inner-btn">
+                                            <button type="button" class="btn-form">MORE DETAILS</button>
+                                        </div>
+                                        <div class="inner-btn">
+                                            <button type="submit" class="btn-form btn-last-form">ADD TO CASH
+                                                <img src="img/shop-mall-white.png" alt="white-mall">
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="inner-product-block">
+                                <div class="inner-header">
+                                    <img src="img/icon-monitor.png" alt="Monitor">
+                                    <div class="hover-for-focus">
+                                        <div class="focus-img">
+                                            <img src="img/icon-focus-blue.png" alt="Focus">
+                                        </div>
+                                        <div class="focus-img">
+                                            <img src="img/icon-focus.png" alt="Focus">
+                                        </div>
+                                    </div>
+                                    <div class="focus-for-like">
+                                        <div class="like-img">
+                                            
+                                        </div>
+                                        <div class="like-img">
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="inner-content">
+                                    <h2>#1 Devise Name</h2>
+                                    <div class="sub-inner-description">
+                                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                                    </div>
+                                    <div class="sub-inner-content">
+                                        <span>TYPE:</span>
+                                        <span>Lapton</span>
+                                    </div>
+                                    <div class="sub-inner-content">
+                                        <span>SCREEN SIZE:</span>
+                                        <span>7 inches</span>
+                                    </div>
+                                    <div class="sub-inner-content inner-last">
+                                        <span>RAM:</span>
+                                        <span>1 GB</span>
+                                    </div>
+                                    <div class="sub-inner-prise">
+                                        <span>$599<sup>25</sup></span>
+                                    </div>
+                                    <div class="inner-btn-block">
+                                        <div class="inner-btn">
+                                            <button type="button" class="btn-form">MORE DETAILS</button>
+                                        </div>
+                                        <div class="inner-btn">
+                                            <button type="submit" class="btn-form btn-last-form " >ADD TO CASH
+                                                <img src="img/shop-mall-white.png" alt="white-mall">
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+
+    <div class="modal">
+        <div class="modal-block">
+            <form action="">
+                <div class="btn-wrap">
+                    <div class="btn-close">X</div>
+                </div>
+                
+                <h3>Please call for more details</h3>
+                <div class="form-field">
+                    <input type="text" placeholder="Your name">
+                </div>
+                <div class="form-field">
+                    <input type="text" placeholder="Your phone">
+                </div>
+                <button>Send</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
