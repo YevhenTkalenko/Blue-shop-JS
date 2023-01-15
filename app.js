@@ -58,16 +58,16 @@ modal.addEventListener('click', function(e){
     }
 })
 
-//ДЗ к задаче 18
-// function scrolling() {
-//     if (window.scrollY >= document.documentElement.scrollHeight/2) {
-//         openModal()
-//         window.removeEventListener('scroll', scrolling)
-//     }
-// }
+
+function scrolling() {
+    if (window.scrollY >= document.documentElement.scrollHeight/2) {
+        openModal()
+        window.removeEventListener('scroll', scrolling)
+    }
+}
 
 
-// window.addEventListener('scroll' , scrolling);
+window.addEventListener('scroll' , scrolling);
 
 
 // setInterval(openModal, 4000); // будет бесконечно раз срабатывать по такому интервалу
