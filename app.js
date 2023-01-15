@@ -1,3 +1,9 @@
+$('.main-slider').slick({
+    dots: true
+});
+
+
+
 //ДЗ к задаче 17
 let productsCountEl = document.getElementById('productsCount');
 let addToCartBtns = document.querySelectorAll('.btn-last-form');
@@ -132,4 +138,9 @@ function Counter(decrementBtn, incrementBtn, inputField){
 }
 
 const counter1 = new Counter(decrementBtns, incrementBtns, productsCount);
+
+
+
+
+
 
